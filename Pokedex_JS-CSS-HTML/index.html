@@ -1,1 +1,41 @@
-primeiro commit
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./favicons/pokeball-favicon-title.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Pokedéx</title>
+</head>
+
+<body>
+    <main>
+        <!--gif do pokemon que ficara acima da pokedex -->
+        <img src="" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number">000</span> -
+            <span class="pokemon__name">Nome pokemon</span>
+        </h1>
+
+        <!--formulario de busca do pokemon -->
+        <form class="form">
+            <input type="search" class="input__search" placeholder="Nome ou id do pokemon: " required />
+        </form>
+
+        <!--botoes disponiveis na pagina -->
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;></button>
+        </div>
+
+        <!--a imagem da pokedex em si -->
+        <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+
+    </main>
+</body>
+
+</html>
